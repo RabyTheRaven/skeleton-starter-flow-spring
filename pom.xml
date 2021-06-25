@@ -110,6 +110,11 @@
             <version>4.4.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.mxgraph</groupId>
+            <artifactId>jgraphx</artifactId>
+            <version>3.7.4</version>
+        </dependency>
     </dependencies>
 
     <build>
