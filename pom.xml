@@ -30,10 +30,20 @@
                 <enabled>false</enabled>
             </snapshots>
         </repository>
+        
         <!-- Repository used by many Vaadin add-ons -->
         <repository>
             <id>Vaadin Directory</id>
             <url>https://maven.vaadin.com/vaadin-addons</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+
+        <!-- Added for JGraphX -->
+        <repository>
+            <id>ICM EDU PL</id>
+            <url>http://maven.icm.edu.pl/artifactory/repo/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -111,9 +121,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.mxgraph</groupId>
+            <groupId>com.github.vlsi.mxgraph</groupId>
             <artifactId>jgraphx</artifactId>
-            <version>3.7.4</version>
+            <version>4.2.2</version>
         </dependency>
     </dependencies>
 
